@@ -11,15 +11,15 @@ export default function Technologies() {
 	return (
 		<>
 			<section id="technologies">
-				<h3>Technologies</h3>
+				<span class="title">Technologies</span>
 				<div class="technologies-container">
 					<div class="technologies-item">
 						<img class="item-img" src={react} alt="" />
-						React.js
+						React
 					</div>
 					<div class="technologies-item">
 						<img class="item-img" src={node} alt="" />
-						Node.js
+						Node
 					</div>
 					<div class="technologies-item">
 						<img class="item-img" src={github} alt="" />

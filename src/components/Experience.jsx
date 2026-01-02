@@ -2,14 +2,11 @@ export default function Experience() {
 	return (
 		<>
 			<section id="experience">
-				<h3>Experience</h3>
+				<span class="title">Experience</span>
 				<div class="timeline-container">
 					<div class="work">
 						<span class="role">Junior Frontend Developer</span>
 						<span class="enterprise">Globant (oct 2022 - oct 2023)</span>
-						<span class="stack">
-							React.js, Node.js, GitHub, Git, JS, CSS y HTML
-						</span>
 						<div class="align">
 							<span>✦</span>
 							<span>
@@ -39,14 +36,13 @@ export default function Experience() {
 								environments (Scrum and Kanban).
 							</span>
 						</div>
+						<span class="stack">
+							React · Node · GitHub · Git · JS · CSS · HTML
+						</span>
 					</div>
 					<div class="work">
 						<span class="role">Junior Quality Assurance Analyst</span>
 						<span class="enterprise">VASS (nov 2019 - abr 2020)</span>
-						<span class="stack">
-							Selenium, MySQL, Postman, VirtualBox, MantisBT, Jira, Excel and
-							Word
-						</span>
 						<div class="align">
 							<span>✦</span>
 							<span>
@@ -75,6 +71,10 @@ export default function Experience() {
 								and Kanban).
 							</span>
 						</div>
+						<span class="stack">
+							Selenium · MySQL · Postman · VirtualBox · MantisBT · Jira · Excel
+							· Word
+						</span>
 					</div>
 				</div>
 			</section>
