@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://camilo-figueroa-developer.github.io/portfolio/",
+	"homepage": "https://camilofi-dev.github.io/portfolio/",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",

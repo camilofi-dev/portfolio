@@ -4,7 +4,7 @@ export default function About() {
 			<section id="about">
 				<span class="name">Camilo Figueroa</span>
 				<span class="job">Software Developer</span>
-				<p class="p">
+				<p class="resume">
 					Frontend-focused software developer building modern, responsive web
 					interfaces with React, JavaScript, HTML, and CSS. Background in
 					quality assurance, with a strong focus on clean, scalable,

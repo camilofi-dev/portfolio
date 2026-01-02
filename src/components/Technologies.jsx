@@ -11,7 +11,7 @@ export default function Technologies() {
 	return (
 		<>
 			<section id="technologies">
-				<span class="title">Technologies</span>
+				<span class="section-title">Technologies</span>
 				<div class="technologies-container">
 					<div class="technologies-item">
 						<img class="item-img" src={react} alt="" />

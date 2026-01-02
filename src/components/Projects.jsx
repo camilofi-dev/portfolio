@@ -4,42 +4,48 @@ export default function Projects() {
 	return (
 		<>
 			<section id="projects">
-				<span class="title">Projects</span>
+				<span class="section-title">Projects</span>
 				<div class="projects-container">
-					<div class="project-card">
-						<div class="desc">
-							<p class="project-title">To-do</p>
-							<br />
-							<p>Technical highlights:</p>
-							<br />
-							<div class="align">
-								<span>✦</span>
-								<span>Advanced DOM manipulation: Dynamic element creation</span>
+					<div class="project-item">
+						<p class="project-title">To-do</p>
+						<div class="project-container">
+							<div class="description">
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>
+										Advanced DOM manipulation: Dynamic element creation
+									</span>
+								</div>
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>Event Delegation: Efficient event handling</span>
+								</div>
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>Enhanced UX: Auto-growing textareas</span>
+								</div>
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>Unique identifier system: Using timestamps</span>
+								</div>
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>Custom modals: For task editing</span>
+								</div>
+								<div class="highlight">
+									<span class="star">✦</span>
+									<span>State management: Element lifecycle control</span>
+								</div>
 							</div>
-							<div class="align">
-								<span>✦</span>
-								<span>Event Delegation: Efficient event handling</span>
-							</div>
-							<div class="align">
-								<span>✦</span>
-								<span>Enhanced UX: Auto-growing textareas</span>
-							</div>
-							<div class="align">
-								<span>✦</span>
-								<span>Unique identifier system: Using timestamps</span>
-							</div>
-							<div class="align">
-								<span>✦</span>
-								<span>Custom modals: For task editing</span>
-							</div>
-							<div class="align">
-								<span>✦</span>
-								<span>State management: Element lifecycle control</span>
+							<div class="video-area">
+								<video width="100%" controls>
+									<source src={videoProject1} type="video/mp4" />
+								</video>
+								<a href="https://github.com/camilofi-dev/to-do">
+									github.com/camilofi-dev/to-do
+								</a>
 							</div>
 						</div>
-						<video width="100%" controls>
-							<source src={videoProject1} type="video/mp4" />
-						</video>
 					</div>
 				</div>
 			</section>

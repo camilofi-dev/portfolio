@@ -6,7 +6,7 @@ export default function Education() {
 	return (
 		<>
 			<section id="education">
-				<span class="title">Education</span>
+				<span class="section-title">Education</span>
 				<div class="edu-container">
 					<div class="edu-item">
 						<span class="institute">ECCI University</span>
