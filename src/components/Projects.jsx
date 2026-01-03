@@ -41,7 +41,7 @@ export default function Projects() {
 								<video width="100%" controls>
 									<source src={videoProject1} type="video/mp4" />
 								</video>
-								<a href="https://github.com/camilofi-dev/to-do">
+								<a href="https://github.com/camilofi-dev/to-do" target="_blank">
 									github.com/camilofi-dev/to-do
 								</a>
 							</div>

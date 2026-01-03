@@ -272,7 +272,7 @@ body {
 	a {
 		color: var(--text-secondary);
 		font-size: 0.75rem;
-		padding-top: 10px;
+		padding-top: 20px;
 		text-decoration: none;
 		transition: color 0.25s ease;
 
@@ -349,7 +349,6 @@ body {
 		left: 10px;
 		position: fixed;
 		top: 10px;
-		transition: all 0.3s ease;
 		width: 50px;
 		z-index: 2;
 
@@ -402,6 +401,8 @@ body {
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
+		padding: 20px 10px;
+
 
 		:is(.description, .video-area) {
 			width: 100%;
