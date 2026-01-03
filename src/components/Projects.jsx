@@ -7,9 +7,9 @@ export default function Projects() {
 				<span class="section-title">Projects</span>
 				<div class="projects-container">
 					<div class="project-item">
-						<p class="project-title">To-do</p>
 						<div class="project-container">
 							<div class="description">
+								<p class="project-title">To-do</p>
 								<div class="highlight">
 									<span class="star">✦</span>
 									<span>
