@@ -230,11 +230,29 @@ body {
 		gap: 20px;
 		flex-direction: column;
 		padding: 20px;
-		width: 320px;
+		width: 280px;
 	}
 	img {
 		border-radius: 20px;
 		width: 100%;
+	}
+	.projects-item-desc {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.labels {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+	.label {
+		border-radius: 20px;
+		padding: 10px 15px;
+		font-size: 0.8rem;
+		font-weight: bold;
+		color: black;
+		background: var(--emphasis2);
 	}
 }
 
