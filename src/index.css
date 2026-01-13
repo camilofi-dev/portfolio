@@ -223,6 +223,7 @@ body {
 		justify-content: center;
 		flex-wrap: wrap;
 	}
+
 	.project-item {
 		background-color: var(--secondary-bg);
 		border-radius: 20px;
@@ -230,22 +231,28 @@ body {
 		gap: 20px;
 		flex-direction: column;
 		padding: 20px;
-		width: 280px;
+		width: 320px;
 	}
+
 	img {
+		border: solid 2px #a0a0a0;
 		border-radius: 20px;
 		width: 100%;
 	}
+
 	.projects-item-desc {
 		display: flex;
 		flex-direction: column;
+
 		gap: 10px;
 	}
 	.labels {
 		display: flex;
+		justify-content: center;
 		gap: 10px;
 		flex-wrap: wrap;
 	}
+
 	.label {
 		border-radius: 20px;
 		padding: 10px 15px;
@@ -253,6 +260,28 @@ body {
 		font-weight: bold;
 		color: black;
 		background: var(--emphasis2);
+		font-style: italic;
+	}
+
+	.link {
+		text-align: center;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+		color: #a0a0a0;
+		transition: color 0.25s ease;
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	.project-title {
+		font-weight: bold;
+		font-size: 1.25rem;
+		text-align: center;
 	}
 }
 
@@ -278,7 +307,7 @@ body {
 		gap: 20px;
 		padding: 20px;
 		text-align: center;
-		width: 220px;
+		width: 320px;
 	}
 
 	.edu-img {
@@ -376,6 +405,12 @@ body {
 			flex-direction: column;
 		}
 		.project-item {
+			width: 100%;
+		}
+	}
+
+	#education {
+		.edu-item {
 			width: 100%;
 		}
 	}
