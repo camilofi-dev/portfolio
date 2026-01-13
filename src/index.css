@@ -17,7 +17,7 @@
 }
 
 body {
-	background: black;
+	background: radial-gradient(circle at top, #004268 0%, black 20%);
 	color: var(--text-primary);
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -211,79 +211,34 @@ body {
 	}
 }
 
-/* SECCIÓN: PROJECTS */
+/* PROJECTS */
 #projects {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 
-	.projects-container {
+	.project-list {
 		display: flex;
-		flex-direction: column;
 		gap: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
 	}
-
 	.project-item {
-		align-items: center;
-		background: var(--secondary-bg);
+		background-color: var(--secondary-bg);
 		border-radius: 20px;
 		display: flex;
-		flex-direction: column;
 		gap: 20px;
+		flex-direction: column;
 		padding: 20px;
-		width: 100%;
+		width: 320px;
 	}
-
-	.project-title {
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
-
-	.project-container {
-		align-items: center;
-		display: flex;
-		gap: 10px;
-		justify-content: center;
-		padding: 20px 40px;
-	}
-
-	.description {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		height: 100%;
-		width: 60%;
-	}
-
-	.video-area {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 40%;
-	}
-
-	video {
-		aspect-ratio: 1 / 1;
-		background: black;
+	img {
 		border-radius: 20px;
-	}
-
-	a {
-		color: var(--text-secondary);
-		font-size: 0.75rem;
-		padding-top: 20px;
-		text-decoration: none;
-		transition: color 0.25s ease;
-
-		&:hover {
-			color: var(--text-primary);
-			cursor: pointer;
-		}
+		width: 100%;
 	}
 }
 
-/* SECCIÓN: EDUCATION */
+/* EDUCATION */
 #education {
 	display: flex;
 	flex-direction: column;
@@ -397,19 +352,13 @@ body {
 		scroll-margin-top: 10px;
 	}
 
-	#projects .project-container {
-		display: flex;
-		flex-direction: column;
-		gap: 30px;
-		padding: 20px 10px;
-
-
-		:is(.description, .video-area) {
-			width: 100%;
+	#projects {
+		.project-list {
+			align-items: center;
+			flex-direction: column;
 		}
-
-		video {
-			max-width: 300px;
+		.project-item {
+			width: 100%;
 		}
 	}
 }

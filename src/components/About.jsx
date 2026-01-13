@@ -12,15 +12,13 @@ export default function About() {
 				</p>
 				<div class="contact">
 					<a href="mailto:camilofi.dev@gmail.com" target="_blank">
-						<span class="contact-item" href="">
-							camilofi.dev@gmail.com
-						</span>
+						<span class="contact-item"> 👉 camilofi.dev@gmail.com </span>
 					</a>
 					<a href="https://github.com/camilofi-dev" target="_blank">
-						<span class="contact-item">github.com/camilofi-dev</span>
+						<span class="contact-item">👉 github.com/camilofi-dev</span>
 					</a>
 					<a href="https://www.linkedin.com/in/camilofi-dev/" target="_blank">
-						<span class="contact-item">linkedin.com/in/camilofi-dev</span>
+						<span class="contact-item">👉 linkedin.com/in/camilofi-dev</span>
 					</a>
 				</div>
 			</section>
